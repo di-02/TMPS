@@ -1,9 +1,9 @@
-import java.io.FileWriter;
+//import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.LinkedHashMap;
-import java.util.Map;
+//import java.util.LinkedHashMap;
+//import java.util.Map;
 
 //import com.google.gson.*;
 
@@ -14,7 +14,7 @@ public class View {
     private String nurseInfo;
     private String location;
     private String state;
-    private char[] jsonString;
+    //private char[] jsonString;
 
     public <Gson> void ViewOutput() throws IOException{
         int whileCount = 0;
@@ -45,12 +45,12 @@ public class View {
            // Gson gson = new GsonBuilder().setPrettyPrinting().create();
             //com.google.gson.Gson gson = new GsonBuilder().setPrettyPrinting().create();
             //com.google.gson.Gson gson = ((Object) new GsonBuilder()).setPrettyPrinting().create();
-            Map object = new LinkedHashMap();
-            object.put("Patient",patientInfo);
-            object.put("Doctor",doctorInfo);
-            object.put("Nurse",nurseInfo);
-            object.put("Number of room",location);
-            object.put("State after manipulations",state);
+            //Map object = new LinkedHashMap();
+            //object.put("Patient",patientInfo);
+            //object.put("Doctor",doctorInfo);
+            //object.put("Nurse",nurseInfo);
+            //object.put("Number of room",location);
+            //object.put("State after manipulations",state);
             //String jsonString=gson.toJson(object);
             //gson.toJson(object, new FileWriter("patient.json"));
 
