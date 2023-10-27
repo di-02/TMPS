@@ -1,0 +1,4 @@
+interface MedicalHierarchy {
+    void setHierarchy();
+    
+}

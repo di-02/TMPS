@@ -1,0 +1,5 @@
+interface GenerateLocation {
+
+    void setLocation();
+    
+}

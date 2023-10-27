@@ -1,0 +1,4 @@
+interface GeneratePersonalInfo {
+
+    void setPersonalData(); 
+}
