@@ -1,0 +1,3 @@
+interface Doctor {
+    void prescribeMedicine();
+}

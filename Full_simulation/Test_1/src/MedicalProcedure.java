@@ -1,0 +1,3 @@
+interface MedicalProcedure {
+    void perform();
+}

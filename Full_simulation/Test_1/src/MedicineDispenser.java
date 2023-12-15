@@ -1,0 +1,3 @@
+interface MedicineDispenser {
+    void dispense();
+}

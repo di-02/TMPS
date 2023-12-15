@@ -1,0 +1,3 @@
+interface MedicalCommand {
+    void execute();
+}

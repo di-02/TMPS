@@ -1,0 +1,3 @@
+interface Medicine {
+    void consume();
+}
